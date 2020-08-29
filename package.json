@@ -51,6 +51,10 @@
     "babel-loader": "^8.1.0",
     "react-is": "^16.13.1"
   },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
